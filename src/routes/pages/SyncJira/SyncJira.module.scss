@@ -1,0 +1,35 @@
+.syncJiraMainContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  :global(.mantine-Stepper-root) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  :global(.mantine-InputWrapper-root) {
+    position: relative;
+  }
+  :global(.mantine-InputWrapper-error) {
+    position: absolute;
+  }
+  .titleDiv {
+    .title {
+      margin: 0;
+    }
+    width: 100%;
+    .hrLine {
+      width: 20%;
+      opacity: 0.2;
+    }
+  }
+  .formatStyle {
+    font-weight: 700;
+  }
+}

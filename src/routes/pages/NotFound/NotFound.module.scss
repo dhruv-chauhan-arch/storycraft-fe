@@ -1,0 +1,14 @@
+.notFoundMainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h2 {
+    text-transform: uppercase;
+  }
+  @media screen and (max-width: 768px) {
+    .img {
+      max-width: 400px;
+    }
+  }
+}

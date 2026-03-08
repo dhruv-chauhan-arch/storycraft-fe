@@ -1,0 +1,33 @@
+.uploadContainer {
+  display: flex;
+  flex-direction: column;
+  :global(.ant-upload-select) {
+    width: 100% !important;
+  }
+  :global(.ant-upload-list-item-container) {
+    width: 100% !important;
+  }
+  :global(
+      .ant-upload-wrapper.ant-upload-picture-card-wrapper
+        .ant-upload.ant-upload-select
+    ) {
+    height: 143px;
+  }
+  :global(
+      .ant-upload-wrapper.ant-upload-picture-card-wrapper
+        .ant-upload-list.ant-upload-list-picture-card
+        .ant-upload-list-item-container
+    ) {
+    height: 143px;
+  }
+  .lightUploadBtn {
+    :global(.ant-upload-list-item-thumbnail) {
+      color: black;
+    }
+  }
+  .darkUploadBtn {
+    :global(.ant-upload-list-item-thumbnail) {
+      color: white;
+    }
+  }
+}

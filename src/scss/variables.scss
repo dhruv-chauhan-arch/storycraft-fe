@@ -1,0 +1,34 @@
+$poppin: "poppins";
+$poppinBold: "poppins-bold";
+$poppinSemiBold: "poppins-semi-bold";
+
+@font-face {
+  font-family: $poppinBold;
+  src: url("../assets/fonts/Poppins-Bold.woff2");
+}
+@font-face {
+  font-family: $poppinSemiBold;
+  src: url("../assets/fonts/Poppins-SemiBold.woff2");
+}
+
+@font-face {
+  font-family: $poppin;
+  src: url("../assets/fonts/Poppins-Medium.woff2");
+}
+
+$black: #000000;
+$white: #ffffff;
+$dark: #1b1b1b;
+$primaryColor: steelblue;
+$error: red;
+
+:export {
+  black: $black;
+  white: $white;
+  dark: $dark;
+  primaryColor: $primaryColor;
+  error: $error;
+  poppin: $poppin;
+  poppinBold: $poppinBold;
+  poppinSemiBold: $poppinSemiBold;
+}

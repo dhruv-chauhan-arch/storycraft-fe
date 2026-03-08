@@ -1,0 +1,31 @@
+.dashboardMainContainer {
+  height: 100%;
+  .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .lessGap {
+    gap: 8px;
+  }
+  .userStory {
+    :global(.mantine-Textarea-wrapper) {
+      height: 350px;
+      textarea {
+        height: 100%;
+      }
+    }
+  }
+  :global(.mantine-Textarea-wrapper) {
+    height: 200px;
+    textarea {
+      height: 100%;
+    }
+  }
+  :global(label) {
+    font-size: 16px;
+  }
+  textarea:disabled {
+    pointer-events: unset;
+  }
+}

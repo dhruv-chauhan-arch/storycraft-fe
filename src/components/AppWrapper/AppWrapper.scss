@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+}
+
+.storyCraft-PreLogo {
+  width: 200px;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+.header-text {
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.img-text {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
